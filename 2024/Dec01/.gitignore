@@ -197,7 +197,7 @@ pyrightconfig.json
 .history
 .ionide
 
-# Note.md
-note.md
+# Note.txt
+note.txt
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
