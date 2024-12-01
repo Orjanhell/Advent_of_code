@@ -13,5 +13,15 @@ for line in lines:
 sorted_left = sorted(left_numbers)
 sorted_right = sorted(right_numbers)
 
-print("Sorterte tall på venstere side", sorted_left)
-print("Sorterte tall på høyre side", sorted_right)
+print("Sorted numbers left side", sorted_left)
+print("Sorted number right side", sorted_right)
+
+differences = []
+
+for left, right in zip(sorted_left, sorted_right):
+    differences.append(abs(left - right))
+
+total_distance = sum(differences)
+
+print("Differences in distance", differences)
+print("Total distance", total_distance)
